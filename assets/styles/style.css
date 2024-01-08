@@ -1,0 +1,30 @@
+* {
+     box-sizing: border-box;
+     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+}
+
+/* common */
+.line-clamp {
+     display: -webkit-box;
+     -webkit-line-clamp: var(--line-clamp, 1);
+     -webkit-box-orient: vertical;
+     overflow: hidden;
+}
+
+.break-all {
+     word-break: break-all;
+}
+
+
+
+
+
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-size: 1.6rem;
+     font-family: "Sora", sans-serif;
+}
