@@ -716,3 +716,38 @@ body {
      line-height: 1.28;
      color: var(--color-heading);
 }
+
+.cta {
+     margin-top: 85px;
+}
+
+.cta__inner {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 100px 0;
+     background-color: #f6fbff;
+}
+
+.cta__line {
+     margin-top: 18px;
+     width: 12%;
+     height: 2px;
+     background-color: var(--primary-color-btn);
+}
+
+.cta__heading {
+     width: 70%;
+}
+
+.cta__desc {
+     margin-top: 18px;
+     width: 53%;
+     text-align: center;
+}
+
+.cta__btn {
+     margin-top: 38px;
+     padding: 15px 40px;
+}
